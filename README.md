@@ -1,0 +1,2 @@
+# eegsignalview
+Project takes in 
