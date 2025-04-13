@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Real-time Analog Data</title>
+  <title>Real-time EEG Data</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
   <div class="container">
-    <h1>Raspberry Pi Analog Data</h1>
-    <div id="graph"></div>
+    <h1>EEG Signal Visualization</h1>
+    <div class="graph-grid">
+      <div id="graph1" class="graph-container"></div>
+      <div id="graph2" class="graph-container"></div>
+      <div id="graph3" class="graph-container"></div>
+      <div id="graph4" class="graph-container"></div>
+      <div id="graph5" class="graph-container"></div>
+      <div id="graph6" class="graph-container"></div>
+      <div id="graph7" class="graph-container"></div>
+      <div id="graph8" class="graph-container"></div>
+    </div>
   </div>
   <script src="main.js"></script>
 </body>
