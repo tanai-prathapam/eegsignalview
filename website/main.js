@@ -77,7 +77,7 @@ function initializeGraphs() {
   setupGraphs();
   
   // Add initial data
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 50; i++) {
     updateGraphs(generateDemoData());
   }
   
